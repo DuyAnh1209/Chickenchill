@@ -17,7 +17,7 @@
 
 <!-- Welcome line -->
 <p align="center">
-  This repository is home to an exciting Object-Oriented Programming (OOP) project, the classic game, Chicken Invaders, using Java.
+  This repository is home to an exciting Object-Oriented Programming (OOP) project, the classic game, Monsters INC, using Java.
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -67,7 +67,7 @@
 
 <!-- MOTIVATION -->
 ## Motivation 
-We are working with this game as our project lab of Object Oriented Programming is a 4-credit course. During our investigation into how to create 2D games with Java, we remembered the Chicken Invaders game which was popular in our childhood.
+We are working with this game as our project lab of Object Oriented Programming is a 4-credit course. During our investigation into how to create 2D games with Java, we remembered the Monsters Inc game which was popular in our childhood.
 <p align="justify">
 
 </p>
