@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.monsterinc.OverController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/other/background2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="1058.0" layoutX="71.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/gameover.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="containerBox" alignment="CENTER" layoutX="450.0" layoutY="455.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <ImageView fx:id="yesImgView" fitHeight="100.0" fitWidth="300.0" onMouseClicked="#play" onMouseEntered="#changeYesImg" onMouseExited="#changeYesImg" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/content/yes1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="noImgView" fitHeight="100.0" fitWidth="300.0" onMouseClicked="#switchtoMenu" onMouseEntered="#changeNoImg" onMouseExited="#changeNoImg" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/content/no1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Label fx:id="scoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="255.0" prefHeight="75.0" prefWidth="700.0" text="" textAlignment="CENTER" textFill="WHITE" />
+      <ImageView fitHeight="162.0" fitWidth="581.0" layoutX="310.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/continue.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

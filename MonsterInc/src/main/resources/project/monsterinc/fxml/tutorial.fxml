@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.monsterinc.SceneController">
+   <children>
+      <ImageView fitHeight="867.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/other/background2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="610.0" fitWidth="1005.0" layoutX="98.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/container.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="219.0" fitWidth="689.0" layoutX="256.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/tutor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backImgView" fitHeight="99.0" fitWidth="103.0" layoutX="1054.0" layoutY="60.0" onMouseClicked="#switchtoMenu" onMouseEntered="#changeBackImg" onMouseExited="#changeBackImg" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/back1.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="tutorContent" fitHeight="610.0" fitWidth="1005.0" layoutX="98.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/content/tutorcontent1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nextButton" fitHeight="85.0" fitWidth="130.0" layoutX="943.0" layoutY="614.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/button/next.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.monsterinc.GameController">
+   <children>
+      <ImageView fitHeight="806.0" fitWidth="1213.0" layoutX="-4.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/other/background2.png" />
+         </image>
+         <effect>
+            <BoxBlur height="3.0" width="3.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="240.0" fitWidth="774.0" layoutX="213.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/other/title1.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="425.0" layoutY="310.0" prefHeight="347.0" prefWidth="264.0">
+         <children>
+            <ImageView fx:id="playImgView" onMouseEntered="#changePlayImg" onMouseExited="#changePlayImg" onMouseReleased="#play" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/button/start1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="tutorImgView" onMouseEntered="#changeTutorImg" onMouseExited="#changeTutorImg" onMouseReleased="#switchtoTutor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/button/tutor1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="creditImgView" onMouseEntered="#changeCreditImg" onMouseExited="#changeCreditImg" onMouseReleased="#switchtoCredit" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/button/credit1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="exitImgView" onMouseEntered="#changeExitImg" onMouseExited="#changeExitImg" onMouseReleased="#exit" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/button/exit1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
