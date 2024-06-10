@@ -9,7 +9,7 @@ public class Monster extends Entity{
     public Monster(int x, int y, int size, Image img) {
         super(x, y, size, img);
     }
-    // update method for the chicken
+    // update method for the monster
     @Override
     public void update() {
         super.update();
