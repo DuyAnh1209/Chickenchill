@@ -92,9 +92,9 @@ We are working with this game as our project lab of Object Oriented Programming 
 <!-- FEATURES -->
 # Features 
 - Tutorials:
-  - Try to survive as long as you can and eliminate chickens to get the highest score
+  - Try to survive as long as you can and eliminate monsters to get the highest score
   - You only have 3 lives to sustain throughout the entirety of the game
-  - For each chicken get destroyed you will earn 2 points, however, if one of them get passed, you will lose 4 points. You lose the game when either your score is 0 or you lost all 3 lives
+  - For each monsters get destroyed you will earn 2 points, however, if one of them get passed, you will lose 4 points. You lose the game when either your score is 0 or you lost all 3 lives
   - When reaching to certain points, your bullet will level up with bigger and faster bullet
   - Use mouse to move; A, S or Mouse click to shoot
 - General:
