@@ -139,9 +139,9 @@ public class GameController extends SceneController{
         playerScore = 0;
         monsterScore = 0;
         IntStream.range(0, maxMonsters).mapToObj(i -> this.newMonster()).forEach(MonsterContainer::add);
-        //The IntStream.range() method is used to generate a sequence of integers from 0 to maxChickens - 1.
-        //For each integer in the sequence, a new chicken object is created using the newChicken() method.
-        //Then each get added to the chickens ArrayList using the forEach() method.
+        //The IntStream.range() method is used to generate a sequence of integers from 0 to maxMonsters - 1.
+        //For each integer in the sequence, a new monster object is created using the newMonster() method.
+        //Then each get added to the monster ArrayList using the forEach() method.
     }
 
     //--Run Graphics
