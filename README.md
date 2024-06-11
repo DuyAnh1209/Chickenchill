@@ -140,7 +140,7 @@ We are working with this game as our project lab of Object Oriented Programming 
 [contributors-shield]: https://img.shields.io/github/contributors/MicroGix/OOP_Project?style=for-the-badge&label=CONTRIBUTORS 
 [contributors-url]: https://github.com/DuyAnh1209/Chickenchill/graphs/contributors
 [forks-shield]:https://img.shields.io/github/forks/MicroGix/OOP_Project?style=for-the-badge&label=FORKS
-[forks-url]: https://github.com/MicroGix/OOP_Project/forks
+[forks-url]: https://github.com/DuyAnh1209/Chickenchill/forks
 [stars-shield]: https://img.shields.io/github/stars/MicroGix/OOP_Project?style=for-the-badge&label=STARS
 [stars-url]: https://github.com/MicroGix/OOP_Proeject/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MicroGix/OOP_Project?style=for-the-badge&label=ISSUES
